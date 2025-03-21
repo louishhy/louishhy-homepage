@@ -5,6 +5,7 @@ const basicInfo = {
   linkedinUrl: "https://www.linkedin.com/in/louishhy/",
   githubUrl: "https://github.com/louishhy",
   email: "louishhy5557@gmail.com",
+  blogUrl: "https://blog.louishhy.com",
 };
 
 export default basicInfo;

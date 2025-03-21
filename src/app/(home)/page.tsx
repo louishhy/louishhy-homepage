@@ -3,10 +3,10 @@ import Description from "./components/Description";
 
 const Home = () => {
   return (
-    <div className="container mx-auto my-auto flex h-screen items-center justify-center">
-      <div className="flex h-3/5 w-3/4">
+    <div className="container mx-auto my-auto flex flex-col items-center justify-center">
+      <section className="flex w-full md:h-screen md:w-3/4">
         <Description />
-      </div>
+      </section>
     </div>
   );
 };
