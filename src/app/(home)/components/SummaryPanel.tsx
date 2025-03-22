@@ -3,7 +3,7 @@ import BlogButton from "./BlogButton";
 
 const SummaryPanel = () => {
   return (
-    <div className="flex h-full w-full flex-col items-center justify-center border-l-2">
+    <div className="flex h-full w-full flex-col items-center justify-center py-8 md:border-l-2">
       {/* Description part */}
       <div className="mx-6 flex flex-col justify-between">
         <p className="max-w-prose text-2xl font-bold">Hi!👋</p>
