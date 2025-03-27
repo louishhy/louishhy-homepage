@@ -11,12 +11,12 @@ const Home = () => {
       <TypingIntroOverlay />
       <section className="flex h-screen w-full flex-col items-center justify-center px-4">
         <Description />
-        <LuChevronDown className="hidden animate-bounce pb-2 text-4xl md:block" />
+        {/* <LuChevronDown className="hidden animate-bounce pb-2 text-4xl md:block" /> */}
       </section>
 
-      <section className="flex flex-col items-center justify-around py-8">
+      {/* <section className="flex flex-col items-center justify-around py-8">
         <ResumeSection sectionTitle="Education" resumeItems={education} />
-      </section>
+      </section> */}
     </main>
   );
 };

@@ -32,11 +32,11 @@ const TypingIntroOverlay = () => {
             },
           }}
         >
-          <div className="mx-auto w-full max-w-prose px-6 text-center font-mono text-lg font-bold whitespace-pre-line md:w-1/2 md:text-3xl">
+          <div className="mx-auto w-full max-w-prose px-6 text-center font-mono text-xl font-bold whitespace-pre-line md:w-1/2 md:text-3xl">
             <Typewriter
               options={{
                 delay: 50,
-                cursor: "|",
+                cursor: "▌",
               }}
               onInit={(typewriter) => {
                 typewriter
