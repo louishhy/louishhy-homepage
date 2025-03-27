@@ -1,12 +1,12 @@
 import { Button } from "@/components/ui/button";
 import React from "react";
 import basicInfo from "@/constants/basicInfo";
-import { FaBlog } from "react-icons/fa6";
+import { IoDocumentText } from "react-icons/io5";
 
-const BlogButton = () => {
+const ResumeButton = () => {
   return (
     <a
-      href={basicInfo.blogUrl}
+      href={basicInfo.resumeUrl}
       target="_blank"
       rel="noreferrer noopener"
       className="no-underline"
@@ -15,11 +15,11 @@ const BlogButton = () => {
         className={`group flex w-32 cursor-pointer items-center rounded-4xl ring-1 md:w-32`}
         variant={"ghost"}
       >
-        <FaBlog className="mr-2 text-xl" />
-        <span className="text-sm font-bold">Blog</span>
+        <IoDocumentText className="mr-2 text-xl" />
+        <span className="text-sm font-bold">Resume</span>
       </Button>
     </a>
   );
 };
 
-export default BlogButton;
+export default ResumeButton;

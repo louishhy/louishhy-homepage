@@ -1,5 +1,6 @@
 import React from "react";
 import BlogButton from "./BlogButton";
+import ResumeButton from "./ResumeButton";
 
 const SummaryPanel = () => {
   return (
@@ -36,8 +37,9 @@ const SummaryPanel = () => {
       </div>
 
       {/* Link buttons */}
-      <div className="mt-12">
+      <div className="mt-12 flex flex-col gap-4 md:flex-row md:gap-8">
         <BlogButton />
+        <ResumeButton />
       </div>
     </div>
   );

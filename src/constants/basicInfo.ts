@@ -6,6 +6,7 @@ const basicInfo = {
   githubUrl: "https://github.com/louishhy",
   email: "louishhy5557@gmail.com",
   blogUrl: "https://blog.louishhy.com",
+  resumeUrl: "/resume.pdf",
 };
 
 export default basicInfo;
