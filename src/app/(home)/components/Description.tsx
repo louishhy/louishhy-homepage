@@ -4,12 +4,12 @@ import SummaryPanel from "./SummaryPanel";
 
 const Description = () => {
   return (
-    <div className="flex h-full w-full flex-1 flex-col items-center justify-center md:flex-row md:gap-8">
+    <div className="flex h-full w-full flex-1 flex-col items-center justify-center gap-4 md:flex-row md:gap-8">
       <div>
         <AvatarPanel />
       </div>
 
-      <div className="mt-8">
+      <div>
         <SummaryPanel />
       </div>
     </div>
