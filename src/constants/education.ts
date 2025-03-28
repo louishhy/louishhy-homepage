@@ -3,7 +3,7 @@ import { ResumeItemProps } from "@/app/(home)/components/ResumeItem";
 const education: ResumeItemProps[] = [
   {
     itemId: "utokyo-master",
-    orgIconSrc: "/images/utokyo.jpg",
+    orgIconSrc: "/images/org-logos/utokyo.jpg",
     orgName: "The University of Tokyo",
     positionTitle: "MASc in Interdisciplinary Information Studies",
     timespan: "April 2024 - March 2026",
@@ -12,7 +12,7 @@ const education: ResumeItemProps[] = [
   },
   {
     itemId: "hku-beng",
-    orgIconSrc: "/images/hku.jpg",
+    orgIconSrc: "/images/org-logos/hku.jpg",
     orgName: "The University of Hong Kong",
     positionTitle: "B.Eng. in Computer Science, First Class Honours",
     timespan: "September 2019 - June 2023",

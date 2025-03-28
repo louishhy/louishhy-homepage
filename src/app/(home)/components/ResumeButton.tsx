@@ -12,7 +12,7 @@ const ResumeButton = () => {
       className="no-underline"
     >
       <Button
-        className={`group flex w-32 cursor-pointer items-center rounded-4xl ring-1 md:w-32`}
+        className={`group flex w-32 cursor-pointer items-center rounded-4xl ring-1 sm:w-32`}
         variant={"ghost"}
       >
         <IoDocumentText className="mr-2 text-xl" />

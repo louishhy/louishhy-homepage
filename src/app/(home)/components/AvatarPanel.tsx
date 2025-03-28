@@ -10,7 +10,7 @@ const AvatarPanel = () => {
   return (
     <div className="flex h-full w-full flex-col items-center justify-center">
       {/* Avatar Image */}
-      <Avatar className="size-25 ring-2 md:size-50">
+      <Avatar className="size-25 ring-2 sm:size-50">
         <AvatarImage asChild src="avatar.jpg">
           <Image src={avatarImg} alt="avatar" fill priority />
         </AvatarImage>

@@ -14,19 +14,21 @@ const ResumeItem = (props: ResumeItemProps) => {
   return (
     <div className="flex flex-row items-start justify-start gap-4">
       {props.orgIconSrc && (
-        <Image
-          className="aspect-square overflow-hidden rounded-2xl border-2 object-cover"
-          src={props.orgIconSrc}
-          alt=""
-          width={50}
-          height={50}
-        />
+        <div className="relative h-[50px] w-[50px] flex-shrink-0">
+          <Image
+            className="rounded-2xl border-2 object-cover"
+            src={props.orgIconSrc}
+            alt={`${props.orgName} logo`}
+            fill
+            sizes="50px"
+          />
+        </div>
       )}
 
       <div className="flex flex-col">
-        <p className="text-lg font-bold">{props.positionTitle}</p>
-        <p className="text-md">{props.orgName}</p>
-        <p className="text-sm">{props.timespan}</p>
+        <p className="text-md font-bold sm:text-lg">{props.positionTitle}</p>
+        <p className="sm:text-md text-sm">{props.orgName}</p>
+        <p className="text-xs sm:text-sm">{props.timespan}</p>
         <p className="mt-4 text-sm whitespace-pre-line">{props.description}</p>
       </div>
     </div>

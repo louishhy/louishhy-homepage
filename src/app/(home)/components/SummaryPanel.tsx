@@ -1,13 +1,17 @@
+"use client";
+
 import React from "react";
 import BlogButton from "./BlogButton";
 import ResumeButton from "./ResumeButton";
-
+import GreetingTypewriter from "./GreetingTypewriter";
 const SummaryPanel = () => {
   return (
     <div className="flex h-full w-full flex-col items-center justify-center py-8 md:border-l-2">
       {/* Description part */}
       <div className="mx-6 flex flex-col justify-between">
-        <p className="max-w-prose text-2xl font-bold">Hi!👋</p>
+        <div className="h-6 font-mono text-xl font-bold">
+          <GreetingTypewriter />
+        </div>
         <p className="mt-6 max-w-prose">
           I am currently a master student at{" "}
           <a
@@ -16,7 +20,7 @@ const SummaryPanel = () => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            Yoichi Sato lab
+            Yoichi Sato Lab
           </a>{" "}
           in The University of Tokyo. My research topic is deep learning and
           egocentric computer vision.
@@ -39,7 +43,7 @@ const SummaryPanel = () => {
       {/* Link buttons */}
       <div className="mt-12 flex flex-col gap-4 md:flex-row md:gap-8">
         <BlogButton />
-        <ResumeButton />
+        {/* <ResumeButton /> */}
       </div>
     </div>
   );
