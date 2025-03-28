@@ -12,9 +12,9 @@ export interface ResumeItemProps {
 
 const ResumeItem = (props: ResumeItemProps) => {
   return (
-    <div className="flex flex-row items-start justify-start gap-4">
+    <div className="flex flex-row items-start justify-start gap-2 sm:gap-4">
       {props.orgIconSrc && (
-        <div className="relative h-[50px] w-[50px] flex-shrink-0">
+        <div className="relative size-8 flex-shrink-0 sm:size-[50px]">
           <Image
             className="rounded-2xl border-2 object-cover"
             src={props.orgIconSrc}
