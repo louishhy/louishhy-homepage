@@ -1,4 +1,5 @@
 import React from "react";
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
         target="_blank"
         rel="noreferrer"
       >
-        Next.js
+        <RiNextjsFill />
       </a>
       &nbsp;and&nbsp;
       <a
@@ -19,7 +20,7 @@ const Footer = () => {
         target="_blank"
         rel="noreferrer"
       >
-        Tailwind CSS
+        <RiTailwindCssFill />
       </a>
       .
     </div>
